@@ -1,5 +1,9 @@
 # 4 RANDOM FIELDS
 
+|Table of Sections|
+|--|
+|:herb:  [4.1 Random Variables](https://github.com/bosoninfo/Resource_Spatial-Analysis-in-R/blob/main/Chapter04/README.md#41-random-variables)<br>:herb:  [4.2 Time Series](https://github.com/bosoninfo/Resource_Spatial-Analysis-in-R/blob/main/Chapter04/README.md#42-time-series)<br>:herb:  [4.3 Random Fields](https://github.com/bosoninfo/Resource_Spatial-Analysis-in-R/blob/main/Chapter04/README.md#43-random-fields)|
+
 <p align="center"><img width=75% src="https://user-images.githubusercontent.com/19381768/229506736-87b6e15e-0bb9-4690-a833-ec1a2cee11a9.png"/></p>
 
 ## 4.1 Random Variables
