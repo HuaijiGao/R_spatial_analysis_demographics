@@ -109,6 +109,14 @@ Examples of weakly stationary time series include:
 
 *In practice, weak stationarity is a common assumption in time series analysis. It simplifies the analysis of time series and makes it possible to use many powerful tools from classical statistics, such as the Fourier transform, the autoregressive integrated moving average (ARIMA) model, and spectral analysis.*
 
+|Stationary Time Series|Non-Stationary Time Series|
+|---|---|
+|![image](https://user-images.githubusercontent.com/19381768/229503030-e0014027-c7f9-4cdb-83d1-994a7e4815ff.png)|![image](https://user-images.githubusercontent.com/19381768/229503063-d46ad8c5-f740-42b8-b788-51c11711a314.png)|
+|Statistical properties of a stationary time series are independent of the point in time where it is observed.|Statistical properties of a non-stationary time series is a function of time where it is observed.|
+|Mean, variance and other statistics of a stationary time series remains constant. Hence, the conclusions from the analysis of stationary series is reliable.|Mean, variance and other statistics of a non-stationary time series changes with time. Hence, the conclusions from the analysis of a non-stationary series might be misleading.|
+|A stationary time series always reverts to the long-term mean.|A non-stationary time series does not revert to the long term mean.|
+|A stationary time series will not have trends, seasonality, etc.|Presence of trends, seasonality makes a series non-stationary.|
+
 ## 4.3 Random Fields
 
 A **random field** is a generalization of a time series to higher-dimensional spaces or other index sets. It is a collection of random variables indexed by an index set that can take on values in a multidimensional space, on a surface, or in any other domain. A time series is a particular case of random fields, where $T$ is a one-dimensional space.
