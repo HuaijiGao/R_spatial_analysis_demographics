@@ -1,6 +1,6 @@
 # 4 RANDOM FIELDS
 
-<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
+<p align="center"><img width=75% src="https://user-images.githubusercontent.com/19381768/229506736-87b6e15e-0bb9-4690-a833-ec1a2cee11a9.png"/></p>
 
 ## 4.1 Random Variables
 
@@ -62,7 +62,7 @@ Suppose that X and Y are random variables, and a and b are numbers. Then:
 
 *Note: The expected value is a linear operator, meaning that it satisfies the properties of linearity. That is, it behaves like a linear function of its arguments. The variance of a linear transformation of X is equal to the square of the scaling factor times the variance of X.*
 
-<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
+<p align="center"><img width=75% src="https://user-images.githubusercontent.com/19381768/229506736-87b6e15e-0bb9-4690-a833-ec1a2cee11a9.png"/></p>
 
 ## 4.2 Time Series
 
@@ -121,7 +121,7 @@ Examples of weakly stationary time series include:
 |A stationary time series always reverts to the long-term mean.|A non-stationary time series does not revert to the long term mean.|
 |A stationary time series will not have trends, seasonality, etc.|Presence of trends, seasonality makes a series non-stationary.|
 
-<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
+<p align="center"><img width=75% src="https://user-images.githubusercontent.com/19381768/229506736-87b6e15e-0bb9-4690-a833-ec1a2cee11a9.png"/></p>
 
 ## 4.3 Random Fields
 
