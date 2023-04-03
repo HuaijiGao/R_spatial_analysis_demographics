@@ -1,5 +1,7 @@
 # 4 RANDOM FIELDS
 
+<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
+
 ## 4.1 Random Variables
 
 - A **random variable** is a variable that takes a numerical value for each possible outcome of a statistical experiment. 
@@ -60,6 +62,8 @@ Suppose that X and Y are random variables, and a and b are numbers. Then:
 
 *Note: The expected value is a linear operator, meaning that it satisfies the properties of linearity. That is, it behaves like a linear function of its arguments. The variance of a linear transformation of X is equal to the square of the scaling factor times the variance of X.*
 
+<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
+
 ## 4.2 Time Series
 
 - Observations of random variables over time typically display dependence. 
@@ -116,6 +120,8 @@ Examples of weakly stationary time series include:
 |Mean, variance and other statistics of a stationary time series remains constant. Hence, the conclusions from the analysis of stationary series is reliable.|Mean, variance and other statistics of a non-stationary time series changes with time. Hence, the conclusions from the analysis of a non-stationary series might be misleading.|
 |A stationary time series always reverts to the long-term mean.|A non-stationary time series does not revert to the long term mean.|
 |A stationary time series will not have trends, seasonality, etc.|Presence of trends, seasonality makes a series non-stationary.|
+
+<p align="center"><img width=70% src="https://user-images.githubusercontent.com/19381768/229505349-8232b57c-c7d1-4fe3-b32e-52c37de01384.png"/></p>
 
 ## 4.3 Random Fields
 
