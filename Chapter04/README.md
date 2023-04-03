@@ -12,12 +12,12 @@
 - We denote a random variable $X(ω)$ by $X$.
 - If X is a random variable, then we cannot predict its value with certainty, but we can assign probabilities to events such as $\lbrace X = 1 \rbrace$ and $\lbrace X > 2\rbrace $, etc.
 
-### 4.1.1 Discrete Random Variables
+### :earth_asia: 4.1.1 Discrete Random Variables
 
 - A random variable $X$ is called **discrete** if all of its possible values can be written down in a list.
 - The **probability distribution** of a discrete random variable $X$ is a list of the possible values that $X$ can take (put in increasing order), together with the probabilities that X takes each of these possible values.
 
-### 4.1.2 Expected Value of $X$
+### :earth_asia: 4.1.2 Expected Value of $X$
 
 - The **expected value** of $X$, denoted as $E(X)$, is defined to be:
 
@@ -26,7 +26,7 @@ $$ E(X) = \sum_{x} x P(X=x) $$
 - This is a weighted average of the possible values of X where the weights are the corresponding probabilities. 
 - $E(X)$ is a measure of the center of the probability distribution.
 
-### 4.1.3 Continuous Random Variables
+### :earth_asia: 4.1.3 Continuous Random Variables
 
 - A **continuous random variable** is a random variable that can take on a continuum of possible values.
 - We describe the probability properties of a continuous random variable $Y$ by a function $f(y)$ called the **probability density function (pdf)**.
@@ -34,7 +34,7 @@ $$ E(X) = \sum_{x} x P(X=x) $$
 
 *Note: Unlike discrete random variables, the probability that a continuous random variable takes on a particular value is zero. Instead, we find probabilities for ranges of values.*
 
-### 4.1.4 Expected Value of a Continuous Random Variable $Y$
+### :earth_asia: 4.1.4 Expected Value of a Continuous Random Variable $Y$
 
 - Suppose that $Y$ is a continuous random variable.
 - The **expected value** of $Y$, denoted $E(Y)$, is defined mathematically as:
@@ -43,7 +43,7 @@ $$ E(Y) = \int_{-\infty}^{\infty} y f(y) dy $$
 
 *Note: The expected value of a continuous random variable is also a measure of the center of the probability distribution. However, it is not the same as the most likely value (mode) of the distribution.*
 
-### 4.1.5 Variance of $X$
+### :earth_asia: 4.1.5 Variance of $X$
 
 - Suppose that $X$ is a random variable. The **variance of $X$**, denoted $Var(X)$, is defined as:
 
@@ -55,7 +55,7 @@ $$ \sigma(X) = \sqrt{Var(X)} $$
 
 *Note: The variance measures how spread out the distribution of X is, while the standard deviation provides a measure of the scale or typical size of the distribution.*
 
-### 4.1.6 Properties of $E(X)$ and $Var(X)$
+### :earth_asia: 4.1.6 Properties of $E(X)$ and $Var(X)$
 
 Suppose that X and Y are random variables, and a and b are numbers. Then:
 
@@ -80,7 +80,7 @@ Suppose that X and Y are random variables, and a and b are numbers. Then:
 |:--:|
 |Time series|
 
-### 4.2.1 Interpolation and Extrapolation in Time Series Analysis
+### :earth_asia: 4.2.1 Interpolation and Extrapolation in Time Series Analysis
 
 Time series data is different from other data types in terms of interpolation and extrapolation because we are typically interested in predicting values that are outside the range of the observed data, which is known as extrapolation. 
 
@@ -89,7 +89,7 @@ Time series data is different from other data types in terms of interpolation an
 - Because time series data is typically used for forecasting and prediction, it is important to be aware of the limitations of extrapolation and to use appropriate statistical methods that take these limitations into account. 
 - In particular, it is important to be aware of issues such as overfitting and model selection bias when making predictions based on time series data.
 
-### 4.2.2 Weakly Stationary Time Series
+### :earth_asia: 4.2.2 Weakly Stationary Time Series
 
 A time series $\lbrace X_t\rbrace$ is said to be **weakly stationary** if:
 
@@ -108,6 +108,7 @@ For a weakly stationary time series $\lbrace X_t\rbrace$, we define:
 - Intuitively, weak stationarity means that the statistical properties of the time series do not change over time. 
 - The mean is constant, and the autocovariance function depends only on the time lag and not on the absolute time at which the observations occur.
 
+### :earth_asia: 4.2.3 Examples
 Examples of weakly stationary time series include:
 
 - White noise: a time series of independent and identically distributed (iid) random variables with mean zero and constant variance.
@@ -159,7 +160,7 @@ Overall, random fields can be used to estimate the spatial or temporal dependenc
 
 In practice, the analysis and modeling of random fields often involves the use of advanced statistical methods, such as spatial statistics, spectral analysis, or machine learning techniques.
 
-### 4.3.1 Expectation and Covariance of Random Fields
+### :earth_asia: 4.3.1 Expectation and Covariance of Random Fields
 
 The expectation of a random field is defined as:
 
@@ -179,7 +180,7 @@ The covariance/correlation function describes the spatial or temporal dependenci
 
 *Note that the expectation, covariance, and correlation of a random field can be estimated from a finite set of observations using standard statistical methods. These estimates can be used to model and analyze the behavior of the random field, and to make predictions or inferences about future or unobserved values of the field.*
 
-### 4.3.2 Autocovariance and Autocorrelation Functions
+### :earth_asia: 4.3.2 Autocovariance and Autocorrelation Functions
 
 The autocovariance function $C(t, s)$ of a random field describes the covariance between the values of the field at two different locations (or time points) $t$ and $s$. 
 
@@ -191,7 +192,7 @@ The autocorrelation function is calculated by dividing the autocovariance functi
 
 The autocovariance and autocorrelation functions are important tools for analyzing and modeling random fields, as they provide information about the spatial or temporal dependence of the data. They can be estimated from a finite set of observations using standard statistical methods, and used to fit models or make predictions about the behavior of the field.
 
-### 4.3.3 Trend and Covariance Functions
+### :earth_asia: 4.3.3 Trend and Covariance Functions
 
 - The expectation $m(t)$ of a random field represents a spatial trend in the data, which can be modeled by any function. 
 - In practice, it is common to use a parametric trend function, which can be controlled by a small number of parameters. 
@@ -206,7 +207,7 @@ To fit a trend function to the data, one needs to estimate the unknown values of
 
 Estimating the parameters of the covariance function from data can be done using maximum likelihood estimation or other methods. Once the parameters are estimated, the covariance function can be used to model and simulate the behavior of the random field, and to make predictions or inferences about future or unobserved values of the field.
 
-### 4.3.4 Positive Definite Functions
+### :earth_asia: 4.3.4 Positive Definite Functions
 
 A function $f(x_1, x_2, ..., x_n)$ is said to be positive definite if it satisfies the following conditions:
 
@@ -218,7 +219,7 @@ Intuitively, a positive definite function is a function that assigns a positive 
 
 In the context of random fields, the covariance function must be positive definite to ensure that the resulting covariance matrix is positive semidefinite, which is a necessary condition for the model to be valid and well-behaved. Many popular covariance functions, such as the Gaussian and Matérn functions, are positive definite and have desirable mathematical properties that make them suitable for modeling spatial or temporal dependence in data.
 
-### 4.3.5 Positive Definite Functions Definition and Properties
+### :earth_asia: 4.3.5 Positive Definite Functions Definition and Properties
 
 A function of two variables $B(·, ·)$ is positive definite if it satisfies the following condition:
 
