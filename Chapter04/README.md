@@ -223,8 +223,8 @@ Let $P_T$ be the class of positive functions on $T$.
 
 $$\sum_{k=1}^n α_kB_k (t, s) ∈ P_T $$
 
-5. $B_1(t, s) ∈ P_T, B_2(t, s) ∈ P_T ⇒ B_1(t, s) · B_2(t, s) ∈ P_T$
-6. $B_n(t, s) ∈ P_T ⇒ lim_{n→∞} B_n(t, s) ∈ P_T$
+4. $B_1(t, s) ∈ P_T, B_2(t, s) ∈ P_T ⇒ B_1(t, s) · B_2(t, s) ∈ P_T$
+5. $B_n(t, s) ∈ P_T ⇒ lim_{n→∞} B_n(t, s) ∈ P_T$
 
 The concept of positive definiteness is fundamental in many areas of statistics, data science, and mathematics, and plays a central role in the theory and practice of random fields and related topics.
 
