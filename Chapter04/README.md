@@ -86,7 +86,8 @@ Time series data is different from other data types in terms of interpolation an
 A time series $\lbrace X_t\rbrace$ is said to be **weakly stationary** if:
 
 - $E(X_t)$ does not depend on $t$.
-- For every integer s, $E[X_t X_{t-s}]$ does not depend on $t$. Or in other words, the autocovariance function $γ(s) = E[(X_t - E(X_t))(X_{t-s} - E(X_{t-s}))]$ does not depend on $t$ for any lag $s$.
+- For every integer s, $E[X_t X_{t-s}]$ does not depend on $t$. 
+- Or in other words, the autocovariance function $γ(s) = E[(X_t - E(X_t))(X_{t-s} - E(X_{t-s}))]$ does not depend on $t$ for any lag $s$.
 
 For a weakly stationary time series $\lbrace X_t\rbrace$, we define:
 
